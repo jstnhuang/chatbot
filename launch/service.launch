@@ -1,0 +1,3 @@
+<launch>
+   <node name="chatbot_service" pkg="chatbot" type="chatService.py" args="$(find chatbot)/aiml/"/>
+</launch>
